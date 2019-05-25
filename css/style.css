@@ -2,9 +2,12 @@
   box-sizing: border-box;
 }
 
-.row::before,
-.row::after {
-  /* clearfix */
+.row:before {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row:after {
   content: "";
   clear: both;
   display: table;
