@@ -13,20 +13,17 @@
   display: table;
 }
 
-[class*=col-] {
+[class*="col-"] {
   float: left;
   min-height: 1px;
 }
 
 .header {
+  display: flex;
   text-align: center;
 }
 .header h1 {
-<<<<<<< HEAD
-  font-size: 60px;
-=======
   font-size: 70px;
->>>>>>> branch2
 }
 
 .container {
