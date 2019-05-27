@@ -2,11 +2,19 @@
   box-sizing: border-box;
 }
 
+.test {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 .row:before {
   content: "";
   clear: both;
   display: table;
 }
+
 .row:after {
   content: "";
   clear: both;
@@ -19,11 +27,11 @@
 }
 
 .header {
-  display: flex;
   text-align: center;
 }
+
 .header h1 {
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .container {
@@ -31,10 +39,12 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .container h3 {
   font-size: 28px;
   text-align: center;
 }
+
 .container .lyrics {
   display: inline-block;
   padding: 0 30px;
@@ -92,5 +102,3 @@
 .col-12 {
   width: 100%;
 }
-
-/*# sourceMappingURL=style.css.map */
